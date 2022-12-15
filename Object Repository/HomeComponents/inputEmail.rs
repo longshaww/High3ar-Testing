@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Nhp email v mt khu ca bn_exampleDropd_db6b01</name>
+   <name>inputEmail</name>
    <tag></tag>
    <elementGuidId>96c89ce0-de10-425f-9b9b-76fb84e9cc11</elementGuidId>
    <selectorCollection>

@@ -23,14 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://high3ar.club/')
 
-WebUI.click(findTestObject('Object Repository/Login/i_M gim gi_bx bx-user'))
+WebUI.scrollToElement(findTestObject('HomeComponents/Product'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Nhp email v mt khu ca bn_exampleDropd_db6b01'), 'test.long@gmail.com')
+WebUI.click(findTestObject('HomeComponents/Product'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_Nhp email v mt khu ca bn_exampleDropd_684f84'), 'tzH6RvlfSTg=', 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Login/button_NG NHP'))
-
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('HomeComponents/nutThemVaoGioHang'))
 

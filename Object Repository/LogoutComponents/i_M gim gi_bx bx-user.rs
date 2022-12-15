@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_M gim gi_bx bx-user</name>
+   <tag></tag>
+   <elementGuidId>5957bcad-84a1-413a-8ded-ad3b03106577</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/nav/div/div[2]/ul[2]/li[3]/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.bx.bx-user</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ff455348-0a03-4ca3-9240-9182ef3e773d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bx bx-user</value>
+      <webElementGuid>cbecbae4-4664-4eb3-90c5-16dba3a461b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;m-main&quot;]/div[@class=&quot;header-custom&quot;]/div[@class=&quot;m-nav&quot;]/div[@class=&quot;container-fluid&quot;]/nav[@class=&quot;navbar navbar-expand-lg navbar-light&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;collapse navbar-collapse&quot;]/ul[@class=&quot;d-none d-lg-flex align-items-center navbar-nav&quot;]/li[@class=&quot;nav-item&quot;]/span[@class=&quot;MuiBadge-root MuiBadge-root css-1rzb3uu&quot;]/i[@class=&quot;bx bx-user&quot;]</value>
+      <webElementGuid>caa6c78a-959e-48fe-af95-c47337bd0d20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/nav/div/div[2]/ul[2]/li[3]/span/i</value>
+      <webElementGuid>8f2df2d5-e7c5-4010-ad52-c5795de6f039</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/span/i</value>
+      <webElementGuid>565dbd07-a5dc-434e-8274-cad9e70bf95c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

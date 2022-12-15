@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_NG NHP</name>
+   <name>buttonDangNhap</name>
    <tag></tag>
    <elementGuidId>95f491d4-0318-4696-ab94-ace3460bc974</elementGuidId>
    <selectorCollection>

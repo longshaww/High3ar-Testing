@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Nhp email v mt khu ca bn_exampleDropd_684f84</name>
    <tag></tag>
-   <elementGuidId>c50bc353-e105-48a5-93fc-4f4ab35f0226</elementGuidId>
+   <elementGuidId>89e8edb1-6acc-4bea-9533-6328d6090d81</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>763f9eb8-27ed-46fd-a58c-e8aedeaab9d4</webElementGuid>
+      <webElementGuid>8a2a60b8-a7ee-4c2c-baef-b7a8137a43d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>5368bba3-7773-44b2-8db1-5ab742bac1c5</webElementGuid>
+      <webElementGuid>265f8a19-6c37-4464-a443-70387538cec5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>878af988-b35c-4952-a000-4a1d79170bf9</webElementGuid>
+      <webElementGuid>5c152cd8-8f9b-4779-bf37-431830d548f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>exampleDropdownFormPassword1</value>
-      <webElementGuid>a79b7f94-7076-4c94-b637-c1e598d87244</webElementGuid>
+      <webElementGuid>1f65cdf8-4ed5-4669-a008-7cec20be391b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Password</value>
-      <webElementGuid>0fe0a6a7-eee4-46c7-9b97-2392b35cac19</webElementGuid>
+      <webElementGuid>0a060b2c-c85a-4880-9a4f-8f9c4051d700</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;exampleDropdownFormPassword1&quot;)</value>
-      <webElementGuid>81329c20-f9d1-477c-9ca8-436a314ca0be</webElementGuid>
+      <webElementGuid>519a7633-0d2c-4b78-8c70-cfa4549ab019</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='exampleDropdownFormPassword1']</value>
-      <webElementGuid>91a9fc11-81fc-4918-be8c-3dca33e60b2c</webElementGuid>
+      <webElementGuid>b4340cd8-a95b-4ecf-b0a6-8fb99d2848cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cart-container']/form/div[2]/input</value>
-      <webElementGuid>0440d3bf-9053-476e-9510-7dc8b88f989f</webElementGuid>
+      <webElementGuid>9960ae54-0751-4ad7-9716-acbca46f7528</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>1f46b772-ff6c-4122-80d0-02484938a309</webElementGuid>
+      <webElementGuid>7a5e098c-d8a6-46c5-97d7-a4e35141814e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @id = 'exampleDropdownFormPassword1' and @placeholder = 'Password']</value>
-      <webElementGuid>59da5d31-6926-4774-9b6a-67cb92427223</webElementGuid>
+      <webElementGuid>f93d679e-c5dc-4432-9a38-c6b5576be52b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
