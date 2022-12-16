@@ -21,15 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://high3ar.club/')
+WebUI.navigateToUrl('https://high3ar.club/account/resetPassword')
 
-WebUI.click(findTestObject('HomeComponents/popOverLogin'))
+WebUI.setText(findTestObject('ForgotPasswordComponents/input_Qun Mt Khu_email'), 'at400123@gmail.com')
 
-WebUI.setText(findTestObject('HomeComponents/inputEmail'), 'test@gmail.com')
+WebUI.click(findTestObject('ForgotPasswordComponents/buttonQuenMatKhau'))
 
-WebUI.setEncryptedText(findTestObject('HomeComponents/inputMatKhau'), 'HeCM15nHKBI=')
-
-WebUI.click(findTestObject('HomeComponents/buttonDangNhap'), FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://high3ar.club/account/verifyOTPForgetPassword?email=at400123%40gmail.com')
 
 WebUI.closeBrowser()
 

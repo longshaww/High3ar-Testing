@@ -19,13 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://high3ar.club/account/register')
 
-WebUI.navigateToUrl('https://high3ar.club/')
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_To ti khon_name'), 'Trần Thanh Long')
 
-WebUI.click(findTestObject('NewArrivalComponents/a_Sn phm mi NEW ARRIVALS'))
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_To ti khon_address'), '219/2f âu dương lân p2 q8')
 
-WebUI.verifyElementText(findTestObject('NewArrivalComponents/NewArrivalText'), 'Tesdt', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_To ti khon_phoneNumber'), '0938131201')
+
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_N_dateOfBirth'), '12/13/2001')
+
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_N_email'), 'at400123@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/RegisterComponents/input_N_password'), 'qeJ0sjJnwEs=')
+
+WebUI.click(findTestObject('Object Repository/RegisterComponents/buttonDki'))
+
+WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Tăng Độ Bảo Mật Cho Tài Khoản, ( > 6 kí tự)')
 
 WebUI.closeBrowser()
 

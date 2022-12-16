@@ -19,13 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://high3ar.club/')
 
-WebUI.click(findTestObject('NewArrivalComponents/a_Sn phm mi NEW ARRIVALS'))
+WebUI.click(findTestObject('Object Repository/LogoutComponents/i_M gim gi_bx bx-user'))
 
-WebUI.verifyElementText(findTestObject('NewArrivalComponents/NewArrivalText'), 'Tesdt', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/LogoutComponents/input_Nhp email v mt khu ca bn_exampleDropd_db6b01'), 'test.long@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/LogoutComponents/input_Nhp email v mt khu ca bn_exampleDropd_684f84'), 
+    'tzH6RvlfSTg=')
+
+WebUI.sendKeys(findTestObject('Object Repository/LogoutComponents/input_Nhp email v mt khu ca bn_exampleDropd_684f84'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/LogoutComponents/div_t'))
+
+WebUI.click(findTestObject('Object Repository/LogoutComponents/span_ng xut'))
+
+WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Đăng xuất thành công')
 
 WebUI.closeBrowser()
 

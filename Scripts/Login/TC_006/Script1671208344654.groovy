@@ -23,9 +23,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://high3ar.club/')
 
-WebUI.click(findTestObject('NewArrivalComponents/a_Sn phm mi NEW ARRIVALS'))
+WebUI.click(findTestObject('Object Repository/HomeComponents/popOverLogin'))
 
-WebUI.verifyElementText(findTestObject('NewArrivalComponents/NewArrivalText'), 'Tesdt', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/HomeComponents/inputEmail'), 'test.long@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/HomeComponents/inputMatKhau'), 'tzH6RvlfSTg=', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/HomeComponents/buttonDangNhap'))
+
+WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Tài khoản hoặc mật khẩu không hợp lệ')
 
 WebUI.closeBrowser()
 

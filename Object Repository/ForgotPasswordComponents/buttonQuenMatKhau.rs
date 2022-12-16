@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonQuenMatKhau</name>
+   <tag></tag>
+   <elementGuidId>3b03d33b-a8be-42e2-af81-3d94e10f0ff2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-center.mt-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div[2]/div/div/div/div/div[2]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cac2f630-9ce6-428b-80ea-6527d11911b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-center mt-4</value>
+      <webElementGuid>1fb6ee59-8c57-42fb-a1fb-398430e1c0e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TIẾP THEO</value>
+      <webElementGuid>22168348-9e0b-43a8-a062-e122d18fb948</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;m-main&quot;]/div[@class=&quot;m-article&quot;]/div[1]/div[@class=&quot;d-flex justify-content-center&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;p-5 shadow box-resetPassword&quot;]/div[2]/div[@class=&quot;text-center mt-4&quot;]</value>
+      <webElementGuid>14e1a9db-c003-4799-bd7d-383c58aad615</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div[2]/div[2]</value>
+      <webElementGuid>6c4b2ce5-c1c8-4b2c-bd0b-43dc00a8210b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quên Mật Khẩu'])[1]/following::div[4]</value>
+      <webElementGuid>d8410d93-62cd-4019-805d-1a82e432f612</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mã giảm giá'])[1]/following::div[13]</value>
+      <webElementGuid>3007155c-f19b-4c62-8786-e14605900fa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>f6a4b57d-8cd5-460c-9b89-1c03e6099b0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'TIẾP THEO' or . = 'TIẾP THEO')]</value>
+      <webElementGuid>c68daa2c-aae8-48b5-9ee0-e33579828c71</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

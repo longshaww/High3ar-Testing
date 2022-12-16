@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>thongBaoDangNhapThanhCong</name>
+   <name>thongBao</name>
    <tag></tag>
    <elementGuidId>ddb8be30-f015-4d58-9283-c4635a2c01c3</elementGuidId>
    <selectorCollection>

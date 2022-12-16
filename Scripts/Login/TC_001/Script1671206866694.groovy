@@ -23,9 +23,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://high3ar.club/')
 
-WebUI.click(findTestObject('NewArrivalComponents/a_Sn phm mi NEW ARRIVALS'))
+WebUI.click(findTestObject('HomeComponents/popOverLogin'))
 
-WebUI.verifyElementText(findTestObject('NewArrivalComponents/NewArrivalText'), 'Tesdt', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('HomeComponents/inputEmail'), '')
+
+WebUI.setText(findTestObject('HomeComponents/inputMatKhau'), '')
+
+WebUI.click(findTestObject('HomeComponents/buttonDangNhap'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Vui lòng nhập tài khoản và mật khẩu')
 
 WebUI.closeBrowser()
 

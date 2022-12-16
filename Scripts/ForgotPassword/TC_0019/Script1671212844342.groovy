@@ -21,11 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://high3ar.club/')
+WebUI.navigateToUrl('https://high3ar.club/account/resetPassword')
 
-WebUI.click(findTestObject('NewArrivalComponents/a_Sn phm mi NEW ARRIVALS'))
-
-WebUI.verifyElementText(findTestObject('NewArrivalComponents/NewArrivalText'), 'Tesdt', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotClickable(findTestObject('ForgotPasswordComponents/buttonQuenMatKhau'))
 
 WebUI.closeBrowser()
 

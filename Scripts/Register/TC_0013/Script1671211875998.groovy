@@ -19,22 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://high3ar.club/')
+WebUI.navigateToUrl('https://high3ar.club/account/register')
 
-WebUI.click(findTestObject('Object Repository/LogoutComponents/i_M gim gi_bx bx-user'))
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_To ti khon_name'), 'Trần Thanh Long')
 
-WebUI.setText(findTestObject('Object Repository/LogoutComponents/input_Nhp email v mt khu ca bn_exampleDropd_db6b01'), 
-    'test.long@gmail.com')
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_To ti khon_address'), '219/2f âu dương lân p2 q8')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LogoutComponents/input_Nhp email v mt khu ca bn_exampleDropd_684f84'), 
-    'tzH6RvlfSTg=')
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_To ti khon_phoneNumber'), '0938131201')
 
-WebUI.sendKeys(findTestObject('Object Repository/LogoutComponents/input_Nhp email v mt khu ca bn_exampleDropd_684f84'), 
-    Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_N_dateOfBirth'), '12/13/2001')
 
-WebUI.click(findTestObject('Object Repository/LogoutComponents/div_t'))
+WebUI.setText(findTestObject('Object Repository/RegisterComponents/input_N_email'), 'at400123@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/LogoutComponents/span_ng xut'))
+WebUI.setEncryptedText(findTestObject('Object Repository/RegisterComponents/input_N_password'), 'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/RegisterComponents/buttonDki'))
+
+WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Đăng kí thành công')
 
 WebUI.closeBrowser()
 

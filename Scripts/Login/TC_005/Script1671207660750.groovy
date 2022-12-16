@@ -25,13 +25,13 @@ WebUI.navigateToUrl('https://high3ar.club/')
 
 WebUI.click(findTestObject('Object Repository/HomeComponents/popOverLogin'))
 
-WebUI.setText(findTestObject('Object Repository/HomeComponents/inputEmail'), 'test.long@gmail.com')
+WebUI.setText(findTestObject('Object Repository/HomeComponents/inputEmail'), 'doesnt\'exist@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/HomeComponents/inputMatKhau'), 'tzH6RvlfSTg=', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/HomeComponents/buttonDangNhap'))
 
-WebUI.verifyElementText(findTestObject('HomeComponents/thongBaoDangNhapThanhCong'), 'Đăng nhập thành công')
+WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Tài khoản hoặc mật khẩu không hợp lệ')
 
 WebUI.closeBrowser()
 

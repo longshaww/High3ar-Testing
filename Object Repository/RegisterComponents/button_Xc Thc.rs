@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Xc Thc</name>
+   <tag></tag>
+   <elementGuidId>85b3b9f0-aba2-4455-b95e-154122eee69b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-dark.px-4.validate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0bb0bd3a-ecdc-4ddb-8d59-b91c747437f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-dark px-4 validate</value>
+      <webElementGuid>eb0ecddc-cbf2-4f03-8670-9fc1f1d7d38f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1a35085c-1d69-4d01-8011-b427d4e3ed69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Xác Thực</value>
+      <webElementGuid>8be19d62-ee2f-4123-933c-dd718824f417</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;m-main&quot;]/div[@class=&quot;m-article&quot;]/div[@class=&quot;container  d-flex justify-content-center align-items-center&quot;]/div[@class=&quot;position-relative&quot;]/div[@class=&quot;card-3 p-2 text-center&quot;]/div[@class=&quot;mt-4&quot;]/button[@class=&quot;btn btn-dark px-4 validate&quot;]</value>
+      <webElementGuid>d8e601c3-ff21-4134-addf-0320379e192d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>1086724c-6bfe-46bb-92a7-12815a82e1cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div/div[3]/button</value>
+      <webElementGuid>4a94be37-17e5-4740-99ee-85e808f46f13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='****123@gmail.com'])[1]/following::button[1]</value>
+      <webElementGuid>647dedec-1c92-438b-aad8-938d06abe71c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mã xác thực đã được gửi qua'])[1]/following::button[1]</value>
+      <webElementGuid>1b627d79-f27d-4543-b016-6aa886f1466d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gửi Lại Mã Xác Thực'])[1]/preceding::button[1]</value>
+      <webElementGuid>504e6eb7-351b-431f-9935-79a025943de8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Xác Thực']/parent::*</value>
+      <webElementGuid>0223083a-0e88-4846-a3f3-b7cf1579dc88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>3de675d8-e106-43d6-bffa-d02981536290</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Xác Thực' or . = 'Xác Thực')]</value>
+      <webElementGuid>8d457c16-e9ec-4928-b6d7-dac573777842</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

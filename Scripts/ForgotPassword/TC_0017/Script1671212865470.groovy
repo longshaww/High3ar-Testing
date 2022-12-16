@@ -21,11 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://high3ar.club/')
+WebUI.navigateToUrl('https://high3ar.club/account/resetPassword')
 
-WebUI.click(findTestObject('NewArrivalComponents/a_Sn phm mi NEW ARRIVALS'))
+WebUI.setText(findTestObject('ForgotPasswordComponents/input_Qun Mt Khu_email'), 'test@gmail.com')
 
-WebUI.verifyElementText(findTestObject('NewArrivalComponents/NewArrivalText'), 'Tesdt', FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ForgotPasswordComponents/buttonQuenMatKhau'))
+
+WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Tài khoản đã được đăng kí')
 
 WebUI.closeBrowser()
 
