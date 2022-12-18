@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/LogoutComponents/div_t'))
 
 WebUI.click(findTestObject('Object Repository/LogoutComponents/span_ng xut'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Đăng xuất thành công')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Đăng xuất thành công')
 
 WebUI.closeBrowser()
 

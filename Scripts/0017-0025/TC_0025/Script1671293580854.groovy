@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('ForgotPasswordComponents/input_Nhp M OTP_otp'), '1
 
 WebUI.click(findTestObject('ForgotPasswordComponents/buttonXacThucOTP'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Xác thực thành công')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Xác thực thành công')
 
 WebUI.navigateToUrl('https://high3ar.club/account/resetNewPassword?email=at400123%40gmail.com&code=7261925973c9bf0a74d85ae968a57e5f')
 
@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('ForgotPasswordComponents/input_t Li Mt Khu_newPass
 
 WebUI.setText(findTestObject('ForgotPasswordComponents/input_t Li Mt Khu_verifyPassword'), '123')
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Password phải có kí tự đăc biệt,số,chữ hoa,độ dài > 6 kí tự')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Password phải có kí tự đăc biệt,số,chữ hoa,độ dài > 6 kí tự')
 
 WebUI.closeBrowser()
 

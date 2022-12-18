@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/HomeComponents/inputMat
 
 WebUI.click(findTestObject('Object Repository/HomeComponents/buttonDangNhap'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Tài khoản hoặc mật khẩu không hợp lệ')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Tài khoản hoặc mật khẩu không hợp lệ')
 
 WebUI.closeBrowser()
 

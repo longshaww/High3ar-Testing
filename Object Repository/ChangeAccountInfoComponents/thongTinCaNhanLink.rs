@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>thongTinCaNhanLink</name>
+   <tag></tag>
+   <elementGuidId>e9603c7f-23d3-4ebe-80f0-c0738f763a00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cart-container']/a/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mt-1 > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>53bbf728-b557-47b0-873d-f3e1d657dab4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tài khoản của tôi</value>
+      <webElementGuid>c4a9b842-0a22-478f-a8b2-59812fc6af73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart-container&quot;)/a[1]/div[@class=&quot;mt-1&quot;]/span[1]</value>
+      <webElementGuid>93eb0b5a-fef1-4a27-a015-4a4e0da7f88e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cart-container']/a/div/span</value>
+      <webElementGuid>b0919f44-19b6-4fba-9f14-d0eaca8da5de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TÀI KHOẢN'])[1]/following::span[1]</value>
+      <webElementGuid>dddd2160-2f48-43ab-9cb3-ebc1d5a3d8ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'cart-container', '&quot;', ')/a[1]/div[@class=', '&quot;', 'mt-1', '&quot;', ']/span[1]')])[1]/following::span[1]</value>
+      <webElementGuid>8d7532de-0856-4383-8747-98399831fde1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quản lý'])[1]/preceding::span[1]</value>
+      <webElementGuid>b3037f26-9d6e-49be-9441-2301cee90e79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[1]/preceding::span[2]</value>
+      <webElementGuid>f4b74127-abbf-41d3-96b8-d30bf1a364cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tài khoản của tôi']/parent::*</value>
+      <webElementGuid>534192ab-c46a-436e-b15a-bff8420d6220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/span</value>
+      <webElementGuid>87a85812-ae46-4759-bce4-7cdb88a6a711</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Tài khoản của tôi' or . = 'Tài khoản của tôi')]</value>
+      <webElementGuid>d3e39cfe-c665-4d13-8aa7-4c6472557874</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

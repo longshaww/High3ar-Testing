@@ -25,7 +25,7 @@ WebUI.navigateToUrl('https://high3ar.club/product/6232fbf301830a245b8d7528')
 
 WebUI.click(findTestObject('CartComponents/buttonThemVaoGioHang'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Bạn chưa chọn size')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Bạn chưa chọn size')
 
 WebUI.closeBrowser()
 

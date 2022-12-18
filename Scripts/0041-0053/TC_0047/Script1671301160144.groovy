@@ -35,5 +35,5 @@ WebUI.selectOptionByLabel(findTestObject('CheckoutComponents/selectTinhThanhPho'
 
 WebUI.click(findTestObject('CheckoutComponents/button_Tip tc n phng thc thanh ton'))
 
-WebUI.verifyElementNotPresent(findTestObject('Util/thongBao'), 0)
+WebUI.verifyElementNotPresent(findTestObject('Utils/thongBao'), 0)
 

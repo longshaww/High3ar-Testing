@@ -21,5 +21,5 @@ WebUI.setText(findTestObject('ForgotPasswordComponents/input_Nhp M OTP_otp'), '1
 
 WebUI.click(findTestObject('ForgotPasswordComponents/buttonXacThucOTP'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Xác thực thành công')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Xác thực thành công')
 

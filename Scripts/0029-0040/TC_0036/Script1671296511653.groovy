@@ -27,13 +27,13 @@ WebUI.click(findTestObject('CartComponents/sizeMRadio'))
 
 WebUI.click(findTestObject('CartComponents/buttonThemVaoGioHang'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Thêm vào giỏ hàng thành công')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Thêm vào giỏ hàng thành công')
 
 WebUI.click(findTestObject('CartComponents/cartIcon'))
 
 WebUI.click(findTestObject('CartComponents/buttonXoaSanPhamDauTienGioHang'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Đã xóa sản phẩm khỏi giỏ hàng')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Đã xóa sản phẩm khỏi giỏ hàng')
 
 WebUI.closeBrowser()
 

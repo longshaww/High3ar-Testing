@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('HomeComponents/inputMatKhau'), 'HeCM15nHK
 
 WebUI.click(findTestObject('HomeComponents/buttonDangNhap'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Vui lòng nhập mật khẩu')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Vui lòng nhập mật khẩu')
 
 WebUI.closeBrowser()
 

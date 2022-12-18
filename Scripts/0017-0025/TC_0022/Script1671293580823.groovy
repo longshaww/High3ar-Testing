@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('ForgotPasswordComponents/input_Nhp M OTP_otp'), '1
 
 WebUI.click(findTestObject('ForgotPasswordComponents/buttonXacThucOTP'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'OTP KHÔNG HỢP LỆ')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'OTP KHÔNG HỢP LỆ')
 
 WebUI.closeBrowser()
 

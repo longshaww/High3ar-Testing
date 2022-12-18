@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/HomeComponents/inputMat
 
 WebUI.click(findTestObject('Object Repository/HomeComponents/buttonDangNhap'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Đăng nhập thành công')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Đăng nhập thành công')
 
 WebUI.closeBrowser()
 

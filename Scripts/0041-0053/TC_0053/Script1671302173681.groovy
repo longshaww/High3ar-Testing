@@ -21,9 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+WebUI.navigateToUrl('https://high3ar.club/product/6232fbf301830a245b8d7528')
+
+WebUI.click(findTestObject('CartComponents/sizeMRadio'))
+
+WebUI.click(findTestObject('CartComponents/buttonThemVaoGioHang'))
+
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Thêm vào giỏ hàng thành công')
+
 WebUI.navigateToUrl('https://high3ar.club/checkout')
 
-WebUI.setText(findTestObject('CheckoutComponents/input_ng nhp_nameCustomer'), '')
+WebUI.setText(findTestObject('CheckoutComponents/input_ng nhp_nameCustomer'), 'Ngoc Phu Pham')
 
 WebUI.setText(findTestObject('CheckoutComponents/input_ng nhp_email'), 'ngocphupham682001@gmail')
 
@@ -39,5 +47,5 @@ WebUI.selectOptionByLabel(findTestObject('CheckoutComponents/selectPhuongXa'), '
 
 WebUI.click(findTestObject('CheckoutComponents/button_Tip tc n phng thc thanh ton'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Vui lòng nhập đầy đủ thông tin !')
+WebUI.verifyElementVisible(findTestObject('CheckoutComponents/phuongThucThanhToanText'), FailureHandling.STOP_ON_FAILURE)
 

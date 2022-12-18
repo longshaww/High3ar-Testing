@@ -33,5 +33,5 @@ WebUI.setText(findTestObject('CheckoutComponents/input_ng nhp_address'), '')
 
 WebUI.click(findTestObject('CheckoutComponents/button_Tip tc n phng thc thanh ton'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Vui lòng nhập đầy đủ thông tin !')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Vui lòng nhập đầy đủ thông tin !')
 

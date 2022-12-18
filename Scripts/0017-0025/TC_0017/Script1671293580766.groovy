@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('ForgotPasswordComponents/input_Qun Mt Khu_email'),
 
 WebUI.click(findTestObject('ForgotPasswordComponents/buttonQuenMatKhau'))
 
-WebUI.verifyElementText(findTestObject('Util/thongBao'), 'Tài khoản đã được đăng kí')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Tài khoản đã được đăng kí')
 
 WebUI.closeBrowser()
 
