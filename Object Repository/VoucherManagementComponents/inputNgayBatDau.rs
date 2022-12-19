@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_S lng_qty</name>
+   <name>inputNgayBatDau</name>
    <tag></tag>
-   <elementGuidId>7ab2cf82-2066-4474-8a4c-fa4f48336727</elementGuidId>
+   <elementGuidId>13aacc4a-d067-4cc6-a55f-3a89c39b4e90</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@id='outlined-basic'])[4]</value>
+         <value>/html/body/div[2]/div/div/div[2]/div[2]/form/div[2]/div[1]/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.Mui-focused.MuiInputBase-formControl.css-1v4ccyo > #outlined-basic</value>
+         <value>#mui-3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>80fb6f7c-ada6-4ca4-9d7f-cb2ea0fe7151</webElementGuid>
+      <webElementGuid>aef58d58-af5c-4fd1-ab89-acb0eb61dc30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,78 +30,86 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>67848c71-54d8-42b0-8387-9c756c7b9299</webElementGuid>
+      <webElementGuid>5fbdc271-1457-4148-adc8-91e55b2ec550</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>outlined-basic</value>
-      <webElementGuid>a0bc4e5f-28ba-4f99-b8c3-f0bd059efb53</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>qty</value>
-      <webElementGuid>d33f7dc6-408e-4bde-ac0e-9602c78aa5a6</webElementGuid>
+      <value>dd/mm/yyyy</value>
+      <webElementGuid>adf2c1b5-5ae4-43ee-b7a4-ecd10ff62372</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>f5fe61e1-fdc7-4c0f-8956-dbc773bef7df</webElementGuid>
+      <value>tel</value>
+      <webElementGuid>baac8a69-29c9-437f-8710-028ba27116a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq</value>
-      <webElementGuid>4f187e03-f31b-47cb-93e2-0e61296a8436</webElementGuid>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1uvydh2</value>
+      <webElementGuid>1f522f0c-dfdc-4573-af6b-cd77b54aac61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>18/12/2022</value>
+      <webElementGuid>0bd813da-ed9f-4462-adb5-a738223f889a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mui-3</value>
+      <webElementGuid>e18db01e-f878-4c43-b9f4-f25b2478ef89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;respon&quot;]/div[@class=&quot;p-5 shadow mx-3&quot;]/form[1]/div[@class=&quot;MuiBox-root css-lqt4hu&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root css-i44wyl&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl css-1v4ccyo&quot;]/input[@id=&quot;outlined-basic&quot;]</value>
-      <webElementGuid>322c8e9f-0792-479d-a696-623d4cea3236</webElementGuid>
+      <value>id(&quot;mui-3&quot;)</value>
+      <webElementGuid>15d5139b-f7cb-41a2-9282-f7a8bcc04819</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@id='outlined-basic'])[4]</value>
-      <webElementGuid>c7ad7947-9b0a-4411-a1d2-b7af24007cf1</webElementGuid>
+      <value>//input[@id='mui-3']</value>
+      <webElementGuid>39aec1fd-6105-4389-8e01-c0640d5df4a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/div[2]/form/div[4]/div[2]/div/input</value>
-      <webElementGuid>a19662af-ab79-4409-9c18-1105dd30e976</webElementGuid>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/form/div[2]/div/div/input</value>
+      <webElementGuid>4b7691b8-e90b-4235-8d73-f5d203a5ae71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/input</value>
-      <webElementGuid>b2a69451-f59d-4d6a-b6af-f18fb6a22926</webElementGuid>
+      <value>//div[2]/div/div/input</value>
+      <webElementGuid>fb32793d-416c-48a8-aa36-084f01114f46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'outlined-basic' and @name = 'qty' and @type = 'number']</value>
-      <webElementGuid>5f30ab45-5a61-47aa-8c26-c90c94ffeade</webElementGuid>
+      <value>//input[@placeholder = 'dd/mm/yyyy' and @type = 'tel' and @id = 'mui-3']</value>
+      <webElementGuid>06b67585-6fc5-487f-8c4d-e27ac09ce6c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

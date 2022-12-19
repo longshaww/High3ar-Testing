@@ -37,9 +37,9 @@ WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
 
 WebUI.click(findTestObject('ChangeAccountInfoComponents/thongTinCaNhanLink'))
 
-WebUI.click(findTestObject('ChangeAccountInfoComponents/buttonSuaInfo'))
-
 WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
+
+WebUI.click(findTestObject('ChangeAccountInfoComponents/buttonSuaInfo'))
 
 WebUI.setText(findTestObject('ChangeAccountInfoComponents/input_THNG TIN TI KHON CA BN_name'), 'Trần Thanh Long')
 
@@ -48,8 +48,6 @@ WebUI.setText(findTestObject('ChangeAccountInfoComponents/input_THNG TIN TI KHON
 WebUI.setText(findTestObject('ChangeAccountInfoComponents/input_N_address'), '219/2f Âu Dương Lân p2 q8')
 
 WebUI.setText(findTestObject('ChangeAccountInfoComponents/input_N_dateOfBirth'), '2001')
-
-WebUI.click(findTestObject('ChangeAccountInfoComponents/maleRadio'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ChangeAccountInfoComponents/button_Xc nhn'))
 

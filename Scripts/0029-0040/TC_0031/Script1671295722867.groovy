@@ -31,8 +31,6 @@ WebUI.click(findTestObject('CartComponents/buttonTangSoLuong'))
 
 WebUI.click(findTestObject('CartComponents/buttonTangSoLuong'))
 
-WebUI.click(findTestObject('CartComponents/buttonThemVaoGioHang'))
-
 WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Kho không đủ sản phẩm')
 
 WebUI.closeBrowser()

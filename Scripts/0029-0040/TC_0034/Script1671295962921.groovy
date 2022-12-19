@@ -27,6 +27,12 @@ WebUI.click(findTestObject('CartComponents/sizeMRadio'))
 
 WebUI.click(findTestObject('CartComponents/buttonTangSoLuong'))
 
+WebUI.click(findTestObject('CartComponents/buttonTangSoLuong'))
+
+WebUI.click(findTestObject('CartComponents/buttonTangSoLuong'))
+
+WebUI.click(findTestObject('CartComponents/buttonTangSoLuong'))
+
 WebUI.click(findTestObject('CartComponents/buttonThemVaoGioHang'))
 
 WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Thêm vào giỏ hàng thành công')

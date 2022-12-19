@@ -25,7 +25,7 @@ WebUI.navigateToUrl('https://high3ar.club/cart')
 
 WebUI.verifyElementPresent(findTestObject('CartComponents/khongCoSanPhamTextChiTietGioHang'), 0)
 
-WebUI.verifyElementNotClickable(findTestObject('CartComponents/buttonThanhToan'))
+WebUI.verifyElementNotClickable(findTestObject('CartComponents/buttonThanhToanChiTietGioHang'))
 
 WebUI.closeBrowser()
 

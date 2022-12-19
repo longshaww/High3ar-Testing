@@ -37,9 +37,7 @@ WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
 
 WebUI.click(findTestObject('UserManagementComponents/quanLyLink'))
 
-WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
-
-WebUI.click(findTestObject('VoucherManagementComponents/li_Voucher'))
+WebUI.click(findTestObject('VoucherManagementComponents/voucherLink'))
 
 WebUI.click(findTestObject('VoucherManagementComponents/buttonEdit'))
 
@@ -47,7 +45,7 @@ WebUI.setText(findTestObject('VoucherManagementComponents/discountInput'), '')
 
 WebUI.click(findTestObject('VoucherManagementComponents/buttonSaveEdited'))
 
-WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Sửa voucher thành công')
+WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Các trường không được để trống')
 
 WebUI.closeBrowser()
 

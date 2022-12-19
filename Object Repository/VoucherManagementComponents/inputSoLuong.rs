@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_S tin gim ti a_maxDiscount</name>
+   <name>inputSoLuong</name>
    <tag></tag>
-   <elementGuidId>be8311fc-822e-4a29-afe4-66bc41f14375</elementGuidId>
+   <elementGuidId>7ab2cf82-2066-4474-8a4c-fa4f48336727</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@id='outlined-basic'])[2]</value>
+         <value>/html/body/div[2]/div/div/div[2]/div[2]/form/div[4]/div[2]/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.Mui-focused.MuiInputBase-formControl.css-1bp1ao6 > #outlined-basic</value>
+         <value>div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.Mui-focused.MuiInputBase-formControl.css-1v4ccyo > #outlined-basic</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>87e3246a-729b-4801-84e8-5182fb6b99c7</webElementGuid>
+      <webElementGuid>3145e041-f46e-4a35-b099-a76bf3eae21b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>938f09a3-877b-40c3-839d-16054ebc86ff</webElementGuid>
+      <webElementGuid>fffc3242-d172-40f7-a22b-def72780c15c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>id</name>
       <type>Main</type>
       <value>outlined-basic</value>
-      <webElementGuid>04b28a65-d665-4b5c-91fb-f5726859fdb9</webElementGuid>
+      <webElementGuid>27a615f7-3e3c-417f-a757-2f6e9ee5b5b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>maxDiscount</value>
-      <webElementGuid>c2974654-8352-4922-a690-e3f42d0897a0</webElementGuid>
+      <value>qty</value>
+      <webElementGuid>81615e28-0abe-47d8-82f1-cae9b4001e6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>f5c1a3b1-f631-4b9a-84f9-8aef4a89394c</webElementGuid>
+      <webElementGuid>f77e964a-3b04-4028-872a-6aac817a0dd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,46 +62,46 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq</value>
-      <webElementGuid>3b93342e-c83d-4667-bbfc-87c69cc0d2c8</webElementGuid>
+      <webElementGuid>8f3198aa-e0c8-474c-9b57-2c05d17d7cf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;respon&quot;]/div[@class=&quot;p-5 shadow mx-3&quot;]/form[1]/div[@class=&quot;MuiBox-root css-i3pbo&quot;]/div[@class=&quot;MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-feqhe6&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl css-1bp1ao6&quot;]/input[@id=&quot;outlined-basic&quot;]</value>
-      <webElementGuid>fc332693-62b5-4c0d-adee-f405350b1c6e</webElementGuid>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;respon&quot;]/div[@class=&quot;p-5 shadow mx-3&quot;]/form[1]/div[@class=&quot;MuiBox-root css-lqt4hu&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root css-i44wyl&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl css-1v4ccyo&quot;]/input[@id=&quot;outlined-basic&quot;]</value>
+      <webElementGuid>22c5fef2-06ed-40c9-bb5b-abe015f34ae4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@id='outlined-basic'])[2]</value>
-      <webElementGuid>739a1e3b-06c4-487f-8d78-cd75d5aee5fc</webElementGuid>
+      <value>(//input[@id='outlined-basic'])[4]</value>
+      <webElementGuid>a4ab44f9-5827-433a-a358-a937d755bef6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/div[2]/form/div[3]/div/div/input</value>
-      <webElementGuid>2a612620-a906-4e14-b1a7-9201effe2050</webElementGuid>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/form/div[4]/div[2]/div/input</value>
+      <webElementGuid>3f6f75de-92de-4c59-b1e5-429297158604</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/input</value>
-      <webElementGuid>1d4eaab7-9fcf-482a-8b97-6de3e8d4f7a9</webElementGuid>
+      <value>//div[4]/div[2]/div/input</value>
+      <webElementGuid>f94cf988-c3ce-4a0a-99fa-2dbf52065b9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'outlined-basic' and @name = 'maxDiscount' and @type = 'number']</value>
-      <webElementGuid>c144d7e1-d86c-4cbd-9f38-15f0422c8c44</webElementGuid>
+      <value>//input[@id = 'outlined-basic' and @name = 'qty' and @type = 'number']</value>
+      <webElementGuid>1ac30970-92b1-4284-afbf-56bde83217e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

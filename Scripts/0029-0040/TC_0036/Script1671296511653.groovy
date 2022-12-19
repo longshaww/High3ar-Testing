@@ -31,7 +31,9 @@ WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Thêm vào giỏ hàn
 
 WebUI.click(findTestObject('CartComponents/cartIcon'))
 
-WebUI.click(findTestObject('CartComponents/buttonXoaSanPhamDauTienGioHang'))
+WebUI.click(findTestObject('CartComponents/buttonXemChiTietGioHang'))
+
+WebUI.click(findTestObject('CartComponents/buttonXoaSanPhamDauTienGioHangChiTiet'))
 
 WebUI.verifyElementText(findTestObject('Utils/thongBao'), 'Đã xóa sản phẩm khỏi giỏ hàng')
 

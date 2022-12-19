@@ -37,6 +37,8 @@ WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
 
 WebUI.click(findTestObject('ChangeAccountInfoComponents/thongTinCaNhanLink'))
 
+WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
+
 WebUI.click(findTestObject('ChangeAccountInfoComponents/buttonSuaInfo'))
 
 WebUI.setText(findTestObject('ChangeAccountInfoComponents/input_THNG TIN TI KHON CA BN_name'), '')
@@ -46,8 +48,6 @@ WebUI.setText(findTestObject('ChangeAccountInfoComponents/input_THNG TIN TI KHON
 WebUI.setText(findTestObject('ChangeAccountInfoComponents/input_N_address'), '')
 
 WebUI.setText(findTestObject('ChangeAccountInfoComponents/input_N_dateOfBirth'), '')
-
-WebUI.click(findTestObject('ChangeAccountInfoComponents/maleRadio'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ChangeAccountInfoComponents/button_Xc nhn'))
 

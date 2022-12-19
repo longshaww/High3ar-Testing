@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Voucher</name>
+   <name>voucherLink</name>
    <tag></tag>
    <elementGuidId>8cdd275f-8c3b-45b4-94ea-5c9836af9622</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/ul/a[4]/li</value>
+         <value>/html/body/div[2]/div/div/div[2]/div[1]/div/div[2]/ul/a[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>e91dbbf1-3a1b-4aca-a923-813ca26c970f</webElementGuid>
+      <webElementGuid>5570eb91-2ce3-4df6-b47f-6d0f4f605718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sidebarListItem</value>
-      <webElementGuid>e63847de-b4ac-4bb9-b47f-7acd9644437a</webElementGuid>
+      <webElementGuid>0f3c080f-fd28-4e84-b315-df829a22a75b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Voucher</value>
-      <webElementGuid>ea31899f-6764-4e40-9c67-d8a1d41a87c9</webElementGuid>
+      <webElementGuid>110c9d27-afe1-480a-b73e-87de5ee180b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;respon&quot;]/div[@class=&quot;sidebar&quot;]/div[@class=&quot;sidebarWrapper&quot;]/div[@class=&quot;sidebarMenu&quot;]/ul[@class=&quot;sidebarList&quot;]/a[@class=&quot;link&quot;]/li[@class=&quot;sidebarListItem&quot;]</value>
-      <webElementGuid>0ceb7bee-1427-4e08-a495-f24bd897dbd2</webElementGuid>
+      <webElementGuid>a32941ff-6920-41d7-a1ad-6e3b343ff603</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/ul/a[4]/li</value>
-      <webElementGuid>c299987d-1e72-43a7-9c2f-f99dea962134</webElementGuid>
+      <webElementGuid>c776dcc4-77e3-4a14-a4fd-7a8f3c332049</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hóa Đơn'])[1]/following::li[1]</value>
-      <webElementGuid>5f9a6ba7-6be0-4af8-a26a-57a7720852eb</webElementGuid>
+      <webElementGuid>4c6692e9-c61a-4e7c-afcf-3617bb6b3f9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sản Phẩm'])[1]/following::li[2]</value>
-      <webElementGuid>ea1528ce-53d9-4e0e-84d2-edda8df3c380</webElementGuid>
+      <webElementGuid>b70ab3da-d455-41c4-9876-f1842c56b3f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create'])[1]/preceding::li[1]</value>
-      <webElementGuid>8c68a7be-b535-4660-aa1b-389b293209fe</webElementGuid>
+      <webElementGuid>04d63e96-5ac3-47e6-9bbb-ee6488a199bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[1]/preceding::li[1]</value>
-      <webElementGuid>a4c74993-80ec-4101-b5ec-15feca6472a3</webElementGuid>
+      <webElementGuid>be1c9973-19d3-41d6-af75-7ea32df97e7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Voucher']/parent::*</value>
-      <webElementGuid>b8b05726-9c5d-4c36-a683-f3a4c9bf9158</webElementGuid>
+      <webElementGuid>b1d242af-6116-431c-86a9-80e40bf5d94f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]/li</value>
-      <webElementGuid>c98b2e9a-c23e-4a16-8177-d43bf2b821c8</webElementGuid>
+      <webElementGuid>7e6e02f3-50a5-4e70-a1d7-6a952c4c5b42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Voucher' or . = 'Voucher')]</value>
-      <webElementGuid>ed86c9e2-b3ad-427e-8083-03f6808a70fb</webElementGuid>
+      <webElementGuid>fa6ab033-24f0-4777-9ab2-3d2e4f80a2f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

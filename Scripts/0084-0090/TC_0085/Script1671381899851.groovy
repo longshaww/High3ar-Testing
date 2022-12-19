@@ -37,23 +37,21 @@ WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
 
 WebUI.click(findTestObject('UserManagementComponents/quanLyLink'))
 
-WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
-
-WebUI.click(findTestObject('VoucherManagementComponents/li_Voucher'))
+WebUI.click(findTestObject('VoucherManagementComponents/voucherLink'))
 
 WebUI.click(findTestObject('VoucherManagementComponents/a_Create'))
 
 WebUI.setText(findTestObject('VoucherManagementComponents/discountInput'), '10')
 
-WebUI.setText(findTestObject('VoucherManagementComponents/input_Ngy bt u_mui-3'), '18/12/2022')
+WebUI.setText(findTestObject('VoucherManagementComponents/inputNgayBatDau'), '18/12/2022')
 
-WebUI.setText(findTestObject('VoucherManagementComponents/input_Ngy kt thc_mui-4'), '17/12/2022')
+WebUI.setText(findTestObject('VoucherManagementComponents/inputNgayKetThuc'), '17/12/2022')
 
-WebUI.setText(findTestObject('VoucherManagementComponents/input_S tin gim ti a_maxDiscount'), '100')
+WebUI.setText(findTestObject('VoucherManagementComponents/inputGiamToiDa'), '100')
 
-WebUI.setText(findTestObject('VoucherManagementComponents/input_S tin tha mn iu kin_qualifyAmount'), '500')
+WebUI.setText(findTestObject('VoucherManagementComponents/inputSoTienThoaMan'), '500')
 
-WebUI.setText(findTestObject('VoucherManagementComponents/input_S lng_qty'), '5')
+WebUI.setText(findTestObject('VoucherManagementComponents/inputSoLuong'), '5')
 
 WebUI.click(findTestObject('VoucherManagementComponents/button_Create'))
 

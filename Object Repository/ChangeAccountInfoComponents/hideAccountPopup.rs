@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>soTheInput</name>
+   <name>hideAccountPopup</name>
    <tag></tag>
-   <elementGuidId>83d8352a-92d9-4820-90f0-c758f24ff5a1</elementGuidId>
+   <elementGuidId>a173e02d-83c4-4cdd-ae51-a7cc56e4ffd3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div/div/div[1]/div/div/div/div/div/form/div[2]/div[1]/div/div/div/div[1]/input</value>
+         <value>/html/body/div[2]/div/div/div[1]/div/div[2]/span/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

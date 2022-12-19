@@ -37,9 +37,7 @@ WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
 
 WebUI.click(findTestObject('UserManagementComponents/quanLyLink'))
 
-WebUI.click(findTestObject('ChangeAccountInfoComponents/accountPopUp'))
-
-WebUI.click(findTestObject('VoucherManagementComponents/li_Voucher'))
+WebUI.click(findTestObject('VoucherManagementComponents/voucherLink'))
 
 WebUI.click(findTestObject('VoucherManagementComponents/buttonDelete'))
 
